@@ -3,7 +3,7 @@
 
     <groupId>com.example</groupId>
     <artifactId>maven-jgitflow-plugin-example</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>${project.artifactId}</name>
@@ -23,7 +23,8 @@
         <developerConnection>scm:git:https://github.com/rera7bb/maven-jgitflow-plugin-example.git</developerConnection>
         -->
         <developerConnection>scm:git:git@github.com:rera7bb/maven-jgitflow-plugin-example.git</developerConnection>
-    </scm>
+      <tag>HEAD</tag>
+  </scm>
 
 
     <dependencies>
