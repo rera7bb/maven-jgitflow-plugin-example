@@ -65,7 +65,7 @@
 				<version>1.0-m5.1</version>
 				<configuration>
                     <enableSshAgent>true</enableSshAgent>
-                    <noDeploy>true</noDeploy>
+                    <noDeploy>false</noDeploy>
                     <useReleaseProfile>false</useReleaseProfile>
                     <noReleaseBuild>false</noReleaseBuild>
                     <username>${git.username}</username>
